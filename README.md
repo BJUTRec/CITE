@@ -10,8 +10,7 @@ Noting:
 1) If you want to reproduce this work in Tensorflow 1.x, please modify：
 
 model.py:
-import tensorflow.compat.v1 as tf ----------------------> import tensorflow as tf 
-tf.disable_v2_behavior() 
+import tensorflow.compat.v1 as tf   tf.disable_v2_behavior()  ----------------------> import tensorflow as tf 
 
 initializer = tf.keras.initializers.glorot_normal() ----------------------> initializer = tf.contrib.layers.xavier_initializer(uniform=False)
 

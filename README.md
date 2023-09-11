@@ -1,5 +1,5 @@
 # CITE
-Source code of 'Compatible intent-based interest modeling for personalized recoomendation'---Applied Intelligence 2023
+Source code of 'Compatible intent-based interest modeling for personalized recommendation'---Applied Intelligence 2023
 
 Key package：
 Python==3.7.0

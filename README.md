@@ -19,7 +19,7 @@ initializer = tf.keras.initializers.glorot_normal() ------> initializer = tf.con
 model.py:
 self.mf_loss = self.create_bpr_loss(self.u_g_embeddings, self.pos_i_g_embeddings, self.neg_i_g_embeddings) ------> self.mf_loss = self.create_ssm_loss(self.u_g_embeddings, self.pos_i_g_embeddings)
 
-But different loss function may have impact on different dataset w.r.t recommendation performance
+But different loss functions may have impact on different datasets w.r.t recommendation performance
 
 3) Please use pretrained user/item embeddings to obatain better recommendation performance as parameters subsection in the paper mentioned.
    Other expermental details please refer to parameters subsection in the paper.

@@ -1,15 +1,19 @@
-# CITE
-Source code of 'Compatible intent-based interest modeling for personalized recommendation'---Applied Intelligence 2023
+# CITE-Tensorflow
+This work is the Tensorflow implementation for our APIN 2023 paper:      
+Jian, M., Wang, T., Zhou, S. et al. Compatible intent-based interest modeling for personalized recommendation. Appl Intell 53, 27519–27536 (2023).
+DOI: https://doi.org/10.1007/s10489-023-04981-y
 
-DOI
-https://doi.org/10.1007/s10489-023-04981-y
-
-Key package：
+# Environment
 Python==3.7.0
 Tensorflow-gpu==2.4.0
 keras==2.8.0
 
-Noting: 
+ # Dataset 
+ We provide dataset: MovieLens-1M, Gowalla, and Yelp2018 in file ./Data 
+ We provide pretrained user/item embeddings in flie ./pretrain_parameters
+ 
+
+# Noting
 1) If you want to reproduce this work in Tensorflow 1.x, please modify：
 
 model.py:

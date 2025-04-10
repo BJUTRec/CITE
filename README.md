@@ -9,8 +9,8 @@ Tensorflow-gpu==2.4.0
 keras==2.8.0
 
  # Dataset 
- We provide dataset: MovieLens-1M, Gowalla, and Yelp2018 in file ./Data 
- We provide pretrained user/item embeddings in flie ./pretrain_parameters
+ We provide dataset: MovieLens-1M, Gowalla, and Yelp2018 in file ./Data. 
+ We also provide pretrained user/item embeddings in flie ./pretrain_parameters
  
 
 # Noting
@@ -28,6 +28,6 @@ self.mf_loss = self.create_bpr_loss(self.u_g_embeddings, self.pos_i_g_embeddings
 
 But different loss functions may have impact on different datasets w.r.t recommendation performance
 
-3) Please use pretrained user/item embeddings to obtain better recommendation performance as parameters subsection in the paper mentioned.
+3) Please use pretrained user/item embeddings to obtain better recommendation performance mentioned in parameters subsection of the paper.
    Other expermental details please refer to parameters subsection in the paper.
   

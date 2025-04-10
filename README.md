@@ -1,6 +1,9 @@
 # CITE
 Source code of 'Compatible intent-based interest modeling for personalized recommendation'---Applied Intelligence 2023
 
+DOI
+https://doi.org/10.1007/s10489-023-04981-y
+
 Key package：
 Python==3.7.0
 Tensorflow-gpu==2.4.0

@@ -24,7 +24,9 @@ initializer = tf.keras.initializers.glorot_normal() ------> initializer = tf.con
 2) If 'train loss == nan' when you reproduce our work with other datasets,  please modify:
 
 model.py:
-self.mf_loss = self.create_bpr_loss(self.u_g_embeddings, self.pos_i_g_embeddings, self.neg_i_g_embeddings) ------> self.mf_loss = self.create_ssm_loss(self.u_g_embeddings, self.pos_i_g_embeddings)
+self.mf_loss = self.create_bpr_loss(self.u_g_embeddings, self.pos_i_g_embeddings, self.neg_i_g_embeddings) ------> 
+
+self.mf_loss = self.create_ssm_loss(self.u_g_embeddings, self.pos_i_g_embeddings)
 
 But different loss functions may have impact on different datasets w.r.t recommendation performance
 

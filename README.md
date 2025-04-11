@@ -8,7 +8,7 @@ Python==3.7.0
 Tensorflow-gpu==2.4.0
 keras==2.8.0
 
- # Dataset 
+ # Datasets
  We provide datasets: MovieLens-1M, Gowalla, and Yelp2018 in file ./Data. 
  We also provide pretrained user/item embeddings in flie ./pretrain_parameters
  

@@ -11,6 +11,27 @@ keras==2.8.0
  # Datasets
  We provide datasets: MovieLens-1M, Gowalla, and Yelp2018 in file ./Data. 
  We also provide pretrained user/item embeddings in flie ./pretrain_parameters
+
+ # Citation
+ If you find this work helpful to your research, please kindly consider citing our paper.
+
+ @article{jian2023compatible,
+ 
+  title={Compatible intent-based interest modeling for personalized recommendation},
+  
+  author={Jian, Meng and Wang, Tuo and Zhou, Shenghua and Lang, Langchen and Wu, Lifang},
+  
+  journal={Applied Intelligence},
+  
+  volume={53},
+  
+  number={22},
+  
+  pages={27519--27536},
+  
+  year={2023},
+  
+}
  
 
 # Noting

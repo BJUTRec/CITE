@@ -1,6 +1,7 @@
 # CITE-Tensorflow
 This work is the Tensorflow implementation for our APIN 2023 paper:      
 Jian, M., Wang, T., Zhou, S. et al. Compatible intent-based interest modeling for personalized recommendation. Appl Intell 53, 27519–27536 (2023).
+
 DOI: https://doi.org/10.1007/s10489-023-04981-y
 
 # Environment
